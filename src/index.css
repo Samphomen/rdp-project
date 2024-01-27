@@ -11,3 +11,197 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.top{
+  border: 1px solid red;
+  width: 100%;
+  height: 70vh;
+  background-image: url('./Images/newhome.jpg');
+  background-size:cover;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.top-text{
+  border: 1px  solid blue;
+  width: 40%;
+  margin: 5px auto auto 10%;
+}
+
+.top-text h1{
+  font-size: 45px;
+  font-weight: 700;
+  /* margin-bottom: -5px; */
+}
+
+.top-text p{
+  font-size: 16px;
+}
+
+.top-text button{
+  width: 10%;
+  height: 30px;
+  font-size: 12px;
+  background-color: darkolivegreen;
+  border: none;
+  color: white;
+}
+
+.top-btm-text{
+  border: 1px solid green;
+  margin: 10px 0;
+  width: 50%;
+}
+
+.top-btm-text p{
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.services{
+  border: 1px solid blue;
+}
+
+.s-header{
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.service-section{
+  border: 1px solid green;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.s-service{
+  border: 1px solid red;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.s-imgbox{
+  width: 100%;
+  height: 300px;
+}
+
+.s-imgbox img{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.s-words{
+  border: 1px solid blue;
+}
+
+.s-words h1{
+  text-align: center;
+  font-size: 24px;
+}
+
+.s-words p{
+  font-size: 15px;
+  text-align: center;
+}
+
+.about{
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.about-image{
+  border: 1px solid black;
+  width: 50%;
+  height: 50vh;
+}
+
+.about-image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.about-desc{
+  border: 1px solid red;
+  width: 45%;
+}
+
+.about-desc h1{
+  font-size: 36px;
+}
+
+/* .about-desc p{
+
+} */
+
+.contact{
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-left{
+  border: 1px solid black;
+  width: 48%;
+}
+
+.cl-top{
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cl-t1{
+  border: 1px solid grey;
+  width: 48%;
+}
+
+.cl-t1 p{
+  border: 1px solid red;
+  width: 100%;
+}
+
+.cl-t1 input{
+  width: 90%;
+  padding: 7px 20px 7px 5px;
+}
+
+.cl-bottom{
+  border: 1px solid red;
+  width: 100%;
+}
+
+.cl-bottom p{
+  border: 1px solid blue;
+}
+
+.cl-bottom textarea{
+  width: 99%;
+  height: 50px;
+}
+
+.cl-button{
+  border: 1px solid black;
+  margin-top: 7px;
+  margin-left: auto;
+  width: 20%;
+}
+
+.cl-button button{
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background: darkolivegreen;
+}
+
+.contact-right{
+  border: 1px solid black;
+  width: 48%;
+}
