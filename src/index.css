@@ -46,6 +46,12 @@ code {
   color: white;
 }
 
+.body{
+  border: 1px solid black;
+  width: 95%;
+  margin: 0 auto;
+}
+
 .top-btm-text{
   border: 1px solid green;
   margin: 10px 0;
